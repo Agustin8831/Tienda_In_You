@@ -1,0 +1,57 @@
+.anuncio {
+    height: 550px;
+}
+main section {
+    max-width: 1200px;
+    margin:  0 auto;
+}
+.cont-jolleria {
+    padding: 80px 0 80px 0;
+} 
+.cont-jolleria h2 {
+    text-align: center;
+    font-size: var(--h2);
+    color: var(--color-encabezados);
+    margin-bottom: 40px;    
+}
+.cont-jolleria .cont-articulos {
+    grid-template-columns: repeat(4,1fr);
+}
+.cont-articulos-clientes {
+    gap: 80px;
+}
+
+/* ------------ PAGINA DE ACERCA DE ------------ */
+.mensaje {
+    flex-direction: row;
+    max-width: 1200px;
+}
+.mensaje-img {
+    width: 50%;
+    height: 500px;
+}
+.mensaje-text {
+    width: 50%;
+    height: 500px;
+    padding: 0 40px;
+}
+.mensaje-text .social-media {
+    margin-top: 80px;
+    padding-top: 40px;
+}
+
+
+
+/* ------------ PAGINA DE CONTACTO ------------ */
+.formulario {
+    max-width: 1200px;
+    padding: 80px 40px;
+    flex-direction: row;
+    gap: 60px;
+}
+.formulario .frm-text,.form {
+    width: 50%;
+}
+.form ul li input{
+    padding: 20px 20px;
+}
