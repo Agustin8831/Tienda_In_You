@@ -404,6 +404,23 @@ footer {
     font-size: var(--size-xl);
     font-weight: 200;
 }
+.filosofia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    flex-wrap: wrap;
+}
+.filosofia h2 {
+    text-align: center;
+    padding: 10px 0;  
+    font-size: var(--size-xl);  
+}
+.filosofia p {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: var(--size-m);    
+}
 .mensaje {
     display: flex;
     justify-content: center;
@@ -411,6 +428,12 @@ footer {
     flex-direction: column-reverse;
     padding: 80px 20px;
     flex-wrap: wrap;
+}
+.mensaje.valor {
+    padding: 0px 20px;
+}
+.mensaje.valor .fundador{
+    font-size: var(--size-xl);
 }
 .mensaje-img {
     width: 100%;

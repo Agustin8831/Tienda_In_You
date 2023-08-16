@@ -51,12 +51,32 @@ header {
 }
 
 /* ------------ PAGINA DE ACERCA DE ------------ */
+.filosofia {
+    padding: 80px 20px;
+}
+.filosofia h2 {    
+    padding: 10px 0;    
+    font-size: calc(var(--size-xl) - 15px);    
+}
+.filosofia p {    
+    padding: 10px 50px;
+    font-size: var(--size-m);    
+}
 .mensaje {
     flex-direction: column-reverse;
     max-width: 700px;
     margin: 0 auto;
 }
-
+.mensaje.valor {
+    padding: 60px 40px 60px 40px;    
+}
+.mensaje.valor:nth-child(4) {
+    flex-direction: row-reverse;
+}
+.mensaje.valor .fundador{
+    font-size: calc(var(--size-xl) - 12px);
+    margin-bottom: 20px;
+}
 
 /* ------------ PAGINA DE CONTACTO ------------ */
 .pedido-info {

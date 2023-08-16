@@ -26,6 +26,9 @@ main section {
     flex-direction: row;
     max-width: 1200px;
 }
+.mensaje.valor .fundador{
+    font-size: calc(var(--size-xl) - 10px);
+}
 .mensaje-img {
     width: 50%;
     height: 500px;
